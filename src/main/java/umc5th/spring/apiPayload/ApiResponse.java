@@ -16,6 +16,7 @@ public class ApiResponse<T> {
 
     @JsonProperty("isSuccess")
     private final Boolean isSuccess;
+    @JsonProperty("code")
     private final String code;
     private final String message;
     @JsonInclude(JsonInclude.Include.NON_NULL)
